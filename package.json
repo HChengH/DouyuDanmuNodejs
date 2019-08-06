@@ -1,0 +1,18 @@
+{
+  "name": "douyu-danmu",
+  "version": "1.0.0",
+  "description": "a simple douyu danmu API crawler",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "He Cheng",
+  "license": "MIT",
+  "dependencies": {
+    "heapdump": "^0.3.14",
+    "iconv-lite": "^0.5.0",
+    "jspack": "0.0.4",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.10.1"
+  }
+}
