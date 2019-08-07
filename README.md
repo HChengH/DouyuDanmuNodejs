@@ -13,6 +13,21 @@ Node.js 实现的斗鱼三方弹幕接入，存储服务
 
 - 程序入口是main.js
 
+  ```
+  ├── LICENSE
+  ├── README.md
+  ├── client.js			客户端组件/与TCP层面上的client相似
+  ├── main.js               	程序入口
+  ├── message.js            	消息组件
+  ├── msgParser.js          	消息处理组件
+  ├── package.json
+  ├── packet.js             	包模块
+  ├── roomMonitor.js        	暂时废弃，未来开发...
+  ├── sqlTableTemplate.js   	SQL 数据库数据模板
+  ├── sqlUtil.js	    	SQL 数据库操作组件/API
+  └── util.js		    	公用组件/API
+  ```
+
   ```javascript
   // 可以直接改房间号实现不同房间的监听
   // 这里可以稍微更改一下用多进程的方式可以同时监听多个房间
